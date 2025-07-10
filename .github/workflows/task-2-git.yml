@@ -1,0 +1,14 @@
+name: A GitHub Actions Workflow
+run-name: ${{ github.actor }} is running a workflow for task 2 
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  task-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Running script.sh from Task 1
+        run: |
+          chmod +x script.sh
+          ./script.sh
