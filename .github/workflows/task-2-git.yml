@@ -1,4 +1,4 @@
-name: A GitHub Actions Workflow
+name: A GitHub Actions Workflow for Task 2
 run-name: ${{ github.actor }} is running a workflow from Task 2 
 on: 
   push:
