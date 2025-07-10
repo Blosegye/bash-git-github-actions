@@ -9,6 +9,7 @@ Task 1: Working with Git and Bash
     - Counts the number of files in the current directory.
 3. Commit the Bash script to the GitHub repository and push it to the main branch.
 
+-----------------
 
 Task 2: Create a GitHub Actions Workflow
 1. Create a GitHub Actions workflow that:
